@@ -1,0 +1,174 @@
+@import "xiaomi.less";
+//分类页
+header{
+    .flex_b();
+    .pl(0);
+    div{
+        flex: 0 1 auto;
+        .pr(20);
+        width: 90%;
+        input[type=text]{
+            line-height: 1;
+            margin: 0;
+            padding: 0;
+            border:0; 
+            .h(60);
+            .pl(5);
+            .fs(20);
+        } 
+    }
+}
+.mui-content{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 44px;
+    bottom: 0.5rem;
+    display: flex;
+    padding: 0 !important;
+    .leftnav{
+        flex: 0 0 auto;
+        .w(157);
+        border-right: 1px solid #ccc;
+        .wrap{
+            a{
+                display: block;
+                .tc();
+                .fs(24);
+                .h(80);
+                .lh(80);
+                &.active {
+                  transform: scale3d(1.01, 1.01, 1);
+                  color: #fb7d34;
+                }
+            }
+            
+            
+        }
+    }
+    .main{
+        overflow-y:auto;
+        flex: 1 1 auto;
+        .p(15);
+        .itemcontainer{
+            background-color: #fff;
+            img{
+                width: 100%;
+            };
+            h3{
+                .mt(40);
+                .mb(40);
+                .tc();
+                span{
+                    position: relative;
+                    .fs(24);
+                    color: #222;
+                    .pl(20);
+                    .pr(20);
+                    &:after,&:before{
+                        content:'';
+                        position: absolute;
+                        height: 1px;
+                        .w(36);
+                        background-color: #ddd;
+                        .vc();
+                    }
+                    &:before{
+                        .left(-30);
+                    }
+                    &:after{
+                       .right(-30); 
+                    }
+                }
+            }
+            .mui-col-xs-4{
+                .mt(20);
+                .p(3);
+                .good-name{
+                    .pt(15);
+                    .pb(15);
+                    .tc();
+                    .fs(28);
+                    color: #666;
+                }
+                img{
+                    width: 100%;
+                    .h(120);
+                    .bc();
+                }
+            }
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

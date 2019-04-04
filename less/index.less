@@ -1,0 +1,141 @@
+@import "xiaomi.less";
+header{
+    .flex_b();
+    div{
+        flex: 1 1 auto;
+        .pl(20);
+        .pr(20);
+        input[type=text]{
+            line-height: 1;
+            margin: 0;
+            padding: 0;
+            border:0; 
+  
+            .h(66);
+            .pl(5);
+            .fs(20);
+            
+        } 
+    }
+}
+.usernav{
+    .flex_a();
+    .h(160);
+    a{
+        .cg1();
+    }
+    .mui-icon{
+        display: block;
+        .w(64);
+        .h(64);
+        .lh(64);
+        .tc();
+        color: #fff;
+        border-radius: 50%;
+        background-color: #E02038;
+        .bc();
+        .mb(10);
+    }
+}
+.morning{
+    .pl(20);
+    .pr(20);
+    display: flex;
+    align-items: center;
+    .h(82);
+    .title{
+        font-family: "微软雅黑";
+        color: #f16136;
+        font-weight: bolder;
+        .fs(40);
+        .h(45);
+        .pr(20);
+        border-right: 1px solid #ccc;
+    }
+    .content{
+        position: relative;
+        flex: 1 1 auto;
+        .pl(20);
+        .lh(40);
+        .fs(24);
+        .item{
+            opacity: 0;
+            .vc();
+            transition: all .8s; 
+            a{
+                color: #000000;
+            }    
+        }
+    }
+}
+.goodlistone{
+    .mui-row{
+        img{
+            width: 100%;
+        }
+    }
+    .mui-col-sm-6:first-child{
+        .pr(2);
+    }    
+    .mui-col-sm-6:last-child{
+        a:first-child{
+            display: block;
+            .pb(2);
+        }
+    }
+}
+.goodlisttwo{
+    background-color: #fff;
+    .mui-row{  
+        img{
+            width: 100%;
+        }
+    }
+    .mui-row:first-child{
+        .pt(2);
+        .pb(2);
+    }
+    .mui-col-sm-6:nth-of-type(2n+1){
+        .pr(2);
+    }   
+    .mui-col-sm-6:nth-of-type(2n+2){
+        .pl(2);
+    } 
+    .good-info{
+        .pt(20);
+        line-height: 1.5;
+        .h(160);
+        overflow: hidden;
+        p{
+            .pt(3);
+            .pb(3);
+        }
+        .pl(30);
+        .good-name{
+            .fs(24);
+            .cg2();
+        }
+        .good-intr{
+            .fs(24);
+            .cg3();
+        }
+        .price{
+            .fs(23);
+            .cprice();
+            &:before{
+                content:"¥";
+                .fs(12);
+                position: relative;
+                .top(-5);
+            }
+        }
+        .oldprice{
+            .fs(23);
+            .cg3();
+        }
+    }
+}
+.mui-icon .iconfont .icon-faxian{
+    position: absolute;
+    .top(-5);
+}

@@ -1,0 +1,280 @@
+.fr {
+  float: right;
+  padding-right: 10px;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+section,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/1.2 "微软雅黑", "SimSun", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+em,
+i {
+  font-style: normal;
+}
+.mui-content {
+  padding-bottom: 44px;
+}
+.mui-bar-tab {
+  left: 0;
+  bottom: 0;
+}
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0rem;
+}
+header div {
+  flex: 0 1 auto;
+  padding-right: 0.26666667rem;
+  width: 90%;
+}
+header div input[type=text] {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  height: 0.8rem;
+  padding-left: 0.06666667rem;
+  font-size: 0.26666667rem;
+}
+.usernav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 2.13333333rem;
+}
+.usernav a {
+  color: #747474;
+}
+.usernav .mui-icon {
+  display: block;
+  width: 0.85333333rem;
+  height: 0.85333333rem;
+  line-height: 0.85333333rem;
+  text-align: center;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #E02038;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.13333333rem;
+}
+.morning {
+  padding-left: 0.26666667rem;
+  padding-right: 0.26666667rem;
+  display: flex;
+  align-items: center;
+  height: 1.09333333rem;
+}
+.morning .title {
+  font-family: "微软雅黑";
+  color: #f16136;
+  font-weight: bolder;
+  font-size: 0.53333333rem;
+  height: 0.6rem;
+  padding-right: 0.26666667rem;
+  border-right: 1px solid #ccc;
+}
+.morning .content {
+  position: relative;
+  flex: 1 1 auto;
+  padding-left: 0.26666667rem;
+  line-height: 0.53333333rem;
+  font-size: 0.32rem;
+}
+.morning .content .item {
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all .8s;
+}
+.morning .content .item a {
+  color: #000000;
+}
+.location .mui-table-view {
+  height: 2.21333333rem;
+  padding: 0.13333333rem;
+}
+.location img {
+  width: 2.06666667rem;
+  height: 1.33333333rem;
+  margin-right: 0.26666667rem;
+}
+.location .mui-table-view-cell .mui-navigate-right {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+.location .mui-table-view-cell .mui-navigate-right .locat-name p:first-child {
+  color: #000;
+  margin-bottom: 0.13333333rem;
+}
+.location .mui-table-view-cell .mui-navigate-right .locat-name p:last-child {
+  color: #ccc;
+}
+.location .mui-table-view-cell .mui-navigate-right span {
+  display: block;
+  padding-left: 0.26666667rem;
+  padding-right: 0.2rem;
+}
+.news {
+  height: 3.69333333rem;
+  background-color: #f5f5f5;
+}
+.news .mui-scroll-wrapper {
+  height: 3.69333333rem;
+}
+.news .mui-scroll {
+  height: 3.69333333rem;
+}
+.news .mui-scroll .mui-control-item {
+  width: 2.77333333rem;
+  height: 3.69333333rem;
+}
+.mui-card {
+  margin: 0;
+}
+.mui-card .info {
+  padding: 0.2rem;
+  font-size: 0.32rem;
+  line-height: 1.2;
+}
+.mui-card .info p:first-child {
+  padding: 0.13333333rem;
+  color: #000000;
+}
+.mui-card .info P:last-child {
+  text-indent: 2em;
+  color: #ccc;
+}
+.mui-card img {
+  width: 100%;
+  display: block;
+}
+.product .mui-table-view-cell {
+  margin-bottom: 0.13333333rem;
+  padding: 0;
+  height: 2.77333333rem;
+  display: flex;
+}
+.product .mui-table-view-cell .info {
+  font-size: 0.32rem;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product .mui-table-view-cell .info p:first-child {
+  font-weight: 700;
+}
+.product .mui-table-view-cell .info P:last-child {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 0.4rem;
+}
+.product .mui-table-view-cell img {
+  width: 3.33333333rem;
+  height: 2.66666667rem;
+  margin-right: 0.44rem;
+}

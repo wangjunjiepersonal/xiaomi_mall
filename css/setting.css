@@ -1,0 +1,308 @@
+.fr {
+  float: right;
+}
+html,
+body,
+ul,
+li,
+ol,
+dl,
+dd,
+dt,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+form,
+fieldset,
+legend,
+img,
+div,
+section,
+footer,
+header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+fieldset,
+img {
+  border: none;
+}
+img {
+  display: block;
+}
+address,
+caption,
+cite,
+code,
+dfn,
+th,
+var {
+  font-style: normal;
+  font-weight: normal;
+}
+ul,
+ol {
+  list-style: none;
+}
+input {
+  padding-top: 0;
+  padding-bottom: 0;
+  font-family: "SimSun", "宋体";
+}
+input::-moz-focus-inner {
+  border: none;
+  padding: 0;
+}
+select,
+input {
+  vertical-align: middle;
+}
+select,
+input,
+textarea {
+  font-size: 12px;
+  margin: 0;
+}
+input[type="text"],
+input[type="password"],
+textarea {
+  outline-style: none;
+  -webkit-appearance: none;
+}
+textarea {
+  resize: none;
+}
+input,
+textarea {
+  background: none;
+  border: none;
+}
+table {
+  border-collapse: collapse;
+}
+body {
+  color: #333;
+  font: 12px/1.2 "微软雅黑", "SimSun", "Arial Narrow", HELVETICA;
+  background: #fff;
+}
+a {
+  text-decoration: none;
+}
+em,
+i {
+  font-style: normal;
+}
+header input[type=text] {
+  line-height: 1;
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 0.88rem;
+}
+.mui-content {
+  padding-bottom: 50px;
+}
+.c000 {
+  color: #000;
+}
+.c888 {
+  color: #888;
+}
+.cf50 {
+  color: #f50;
+}
+html,
+body {
+  background-color: #efeff4;
+}
+.mui-views,
+.mui-view,
+.mui-pages,
+.mui-page,
+.mui-page-content {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #efeff4;
+}
+.mui-pages {
+  top: 46px;
+  height: auto;
+}
+.mui-scroll-wrapper,
+.mui-scroll {
+  background-color: #efeff4;
+}
+.mui-page.mui-transitioning {
+  -webkit-transition: -webkit-transform 300ms ease;
+  transition: transform 300ms ease;
+}
+.mui-page-left {
+  -webkit-transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
+}
+.mui-ios .mui-page-left {
+  -webkit-transform: translate3d(-20%, 0, 0);
+  transform: translate3d(-20%, 0, 0);
+}
+.mui-navbar {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 10;
+  height: 44px;
+  background-color: #f7f7f8;
+}
+.mui-navbar .mui-bar {
+  position: absolute;
+  background: transparent;
+  text-align: center;
+}
+.mui-android .mui-navbar-inner.mui-navbar-left {
+  opacity: 0;
+}
+.mui-ios .mui-navbar-left .mui-left,
+.mui-ios .mui-navbar-left .mui-center,
+.mui-ios .mui-navbar-left .mui-right {
+  opacity: 0;
+}
+.mui-navbar .mui-btn-nav {
+  -webkit-transition: none;
+  transition: none;
+  -webkit-transition-duration: .0s;
+  transition-duration: .0s;
+}
+.mui-navbar .mui-bar .mui-title {
+  display: inline-block;
+  width: auto;
+}
+.mui-page-shadow {
+  position: absolute;
+  right: 100%;
+  top: 0;
+  width: 16px;
+  height: 100%;
+  z-index: -1;
+  content: '';
+}
+.mui-page-shadow {
+  background: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.01) 50%, rgba(0, 0, 0, 0.2) 100%);
+  background: linear-gradient(to right, rgba(0, 0, 0, 0) 0, rgba(0, 0, 0, 0) 10%, rgba(0, 0, 0, 0.01) 50%, rgba(0, 0, 0, 0.2) 100%);
+}
+.mui-navbar-inner.mui-transitioning,
+.mui-navbar-inner .mui-transitioning {
+  -webkit-transition: opacity 300ms ease, -webkit-transform 300ms ease;
+  transition: opacity 300ms ease, transform 300ms ease;
+}
+.mui-page {
+  display: none;
+}
+.mui-pages .mui-page {
+  display: block;
+}
+.mui-page .mui-table-view:first-child {
+  margin-top: 15px;
+}
+.mui-page .mui-table-view:last-child {
+  margin-bottom: 30px;
+}
+.mui-table-view {
+  margin-top: 20px;
+}
+.mui-table-view span.mui-pull-right {
+  color: #999;
+}
+.mui-table-view-divider {
+  background-color: #efeff4;
+  font-size: 14px;
+}
+.mui-table-view-divider:before,
+.mui-table-view-divider:after {
+  height: 0;
+}
+.head {
+  height: 40px;
+}
+#head {
+  line-height: 40px;
+}
+.head-img {
+  width: 40px;
+  height: 40px;
+}
+#head-img1 {
+  position: absolute;
+  bottom: 10px;
+  right: 40px;
+  width: 40px;
+  height: 40px;
+}
+.update {
+  font-style: normal;
+  color: #999999;
+  margin-right: -25px;
+  font-size: 15px;
+}
+.mui-fullscreen {
+  position: fixed;
+  z-index: 20;
+  background-color: #000;
+}
+.mui-ios .mui-navbar .mui-bar .mui-title {
+  position: static;
+}
+.mui-media {
+  padding: 0;
+}
+.mui-navigate-right.order {
+  padding-right: 3.06666667rem !important;
+}
+.usernav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #fff;
+  height: 2.48rem;
+}
+.usernav a {
+  color: #747474;
+}
+.usernav .mui-icon {
+  display: block;
+  width: 0.85333333rem;
+  height: 0.85333333rem;
+  line-height: 0.85333333rem;
+  text-align: center;
+  color: #333;
+  font-size: 0.66666667rem;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0.13333333rem;
+}
+.menu .mui-table-view-cell {
+  height: 1.46666667rem;
+}
+.menu .mui-table-view-cell .mui-navigate-right {
+  margin: 0;
+}
+.menu .icon-hudong {
+  color: #F16136;
+}

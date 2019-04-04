@@ -1,0 +1,126 @@
+@import "xiaomi.less";
+//订单页
+.cart{
+    .mui-table-view-cell{
+        .h(192);
+        .fs(24);
+        display: flex;
+        align-items: center;
+        .check{
+            .w(44);
+            .h(44);
+            flex: 0 0 auto;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            .mr(10);
+        }
+        .checked{
+            background-image: url(../img/check_press.png);
+        }
+        img{
+            .w(136);
+            .h(136);
+            flex: 0 0 auto;
+            .mr(10);
+        }
+        .good-info{
+            .fs(28);
+            p{
+                .pt(10);
+                
+            }
+            p:nth-of-type(1){
+                color: #000000;
+            }
+            p:nth-of-type(2){
+                color: #C0C0C0;
+            }
+            p:nth-of-type(3){
+                color: #f50;
+            }
+        }
+        .mui-numbox{
+            margin-left: auto;
+        }
+    }
+}
+
+.product{
+    h3{
+        text-align: center;
+        .p(30);
+    }
+    background-color: #fff;
+    .mui-row{  
+        img{
+            width: 100%;
+        }
+    }
+    .mui-row:first-child{
+        .pt(2);
+        .pb(2);
+    }
+    .mui-col-sm-6:nth-of-type(2n+1){
+        .pr(2);
+    }   
+    .mui-col-sm-6:nth-of-type(2n+2){
+        .pl(2);
+    } 
+    .good-info{
+        .pt(20);
+        line-height: 1.5;
+        .h(160);
+        overflow: hidden;
+        p{
+            .pt(3);
+            .pb(3);
+        }
+        .pl(30);
+        .good-name{
+            .fs(24);
+            .cg2();
+        }
+        .good-intr{
+            .fs(24);
+            .cg3();
+        }
+        .price{
+            .fs(23);
+            .cprice();
+            &:before{
+                content:"¥";
+                .fs(12);
+                position: relative;
+                .top(-5);
+            }
+        }
+        .oldprice{
+            .fs(23);
+            .cg3();
+        }
+    }
+}
+.cartTotal{
+    background-color: greenyellow;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    .h(100);
+    .lh(100);
+    width: 100%;
+    .tc();
+    .fs(30);
+    .money{
+        flex: 1 1 auto;
+    }
+    .gocheck{
+        display: block;
+        color: #FFFFFF;
+        .w(224);
+        background-color: #f50;
+    }
+}
